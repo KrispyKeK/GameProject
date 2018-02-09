@@ -7,8 +7,6 @@ import game.model.Map;
 public class gameController 
 {
 	gameFrame frame;
-	Map test;
-	
 	public gameController() 
 	{
 		frame = new gameFrame(this);

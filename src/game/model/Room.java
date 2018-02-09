@@ -1,23 +1,17 @@
 package game.model;
 
-public class Room {
+public class Room 
+{
 	String name;
-	int number;
-	public Room(String name, int number) 
-	{
+	int description;
+	public Room(String name, String description) {
 		this.name = name;
-		this.number = number;
+		this.description = description;
 	}
 	public String getName() {
 		return name;
 	}
-	public int getNumber() {
-		return number;
-	}
-	public void setName() {
-		this.name = name;
-	}
-	public void setNumber() {
-		this.number = number;
+	public String getNumber() {
+		return description;
 	}
 }
