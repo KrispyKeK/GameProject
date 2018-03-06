@@ -6,6 +6,7 @@ public class gameRunner
 {
 	public static void main(String[]args) 
 	{
-		gameController start = new gameController();
+		gameController controller = new gameController();
+		controller.start();
 	}
 }

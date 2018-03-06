@@ -4,13 +4,11 @@ public class Item
 {
 	String name;
 	String description;
-	
 	public Item(String name, String description) 
 	{
 		this.name = name;
 		this.description = description;
 	}
-	
 	public String getName() 
 	{
 		return name;
@@ -19,12 +17,8 @@ public class Item
 	{
 		return description;
 	}
-	public void setName() 
+	public String getTotal() 
 	{
-		this.name = name;
-	}
-	public void setDescription() 
-	{
-		this.description = description;
+		return name + "\n" + description;
 	}
 }
