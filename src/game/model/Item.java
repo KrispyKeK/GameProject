@@ -4,10 +4,14 @@ public class Item
 {
 	String name;
 	String description;
-	public Item(String name, String description) 
+	int x;
+	int y;
+	public Item(String name, String description, int x, int y) 
 	{
 		this.name = name;
 		this.description = description;
+		this.x = x;
+		this.y = y;
 	}
 	public String getName() 
 	{
@@ -17,7 +21,15 @@ public class Item
 	{
 		return description;
 	}
-	public String getTotal() 
+	public int getLocationX() 
+	{
+		return x;
+	}
+	public int getLocationY() 
+	{
+		return y;
+	}
+	public String getItemDetail() 
 	{
 		return name + "\n" + description;
 	}
