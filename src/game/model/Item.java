@@ -6,12 +6,14 @@ public class Item
 	String description;
 	int x;
 	int y;
-	public Item(String name, String description, int x, int y) 
+	boolean access;
+	public Item(String name, String description, int x, int y, boolean access) 
 	{
 		this.name = name;
 		this.description = description;
 		this.x = x;
 		this.y = y;
+		this.access = access;
 	}
 	public String getName() 
 	{

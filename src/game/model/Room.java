@@ -31,7 +31,7 @@ public class Room
 	}
 	public String getRoomDetail() 
 	{
-		return name + "\n" + description;
+		return name + "\n" + description + "\n" + direction;
 	}
 	public void setDirection(String direction) 
 	{
